@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arun | WordPress Developer</title>
+  <meta name="description" content="Arun - WordPress Developer building fast, SEO-ready websites with Elementor, WooCommerce, and custom plugins." />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Arun | WordPress Developer" />
+  <meta property="og:description" content="Fast, SEO-ready WordPress websites. Elementor, WooCommerce, Custom Plugins, Speed Optimization." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="script" href="script.js"
+  
+</head>
+
+<body>
+  <!-- Background decorations -->
+  <div class="bg-blobs" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <nav class="nav container">
+      <a class="logo" href="#home" aria-label="Arun Home">
+        Arun<span class="dot">.</span>
+      </a>
+
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">
+        <span class="icon-sun" aria-hidden="true">☀</span>
+        <span class="icon-moon" aria-hidden="true">☾</span>
+      </button>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#contact" class="btn btn-sm">Hire Me</a>
+      </div>
+    </nav>
+
+    <!-- Mobile slide panel -->
+    <div class="mobile-panel" id="mobilePanel" aria-hidden="true">
+      <div class="mobile-panel-inner">
+        <div class="mobile-top">
+          <span class="mobile-title">Menu</span>
+          <button class="icon-btn" id="closeMobile" aria-label="Close menu">✕</button>
+        </div>
+        <div class="mobile-links">
+          <a href="#home" class="m-link">Home</a>
+          <a href="#about" class="m-link">About</a>
+          <a href="#skills" class="m-link">Skills</a>
+          <a href="#projects" class="m-link">Projects</a>
+          <a href="#services" class="m-link">Services</a>
+          <a href="#testimonials" class="m-link">Testimonials</a>
+          <a href="#contact" class="m-link">Contact</a>
+        </div>
+        <a class="btn btn-full" href="#contact">Hire Arun</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- Hero -->
+    <section class="hero container section" id="home">
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="pill">WordPress Developer • Elementor • WooCommerce • SEO</p>
+          <h1 class="hero-title">
+            I build fast, SEO-ready <span class="grad">WordPress websites</span>.
+          </h1>
+
+          <p class="hero-sub">
+            <span class="muted">I help businesses grow with</span>
+            <span class="typing" id="typing" aria-label="Typing roles"></span>
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="#contact">Hire Me</a>
+          </div>
+
+          <div class="hero-badges">
+            <div class="badge">
+              <span class="badge-k">Core Web Vitals</span>
+              <span class="badge-v">Speed + SEO Focus</span>
+            </div>
+            <div class="badge">
+              <span class="badge-k">Custom Work</span>
+              <span class="badge-v">Plugins + Integrations</span>
+            </div>
+            <div class="badge">
+              <span class="badge-k">Reliable</span>
+              <span class="badge-v">Clean Code + Support</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="profile">
+            <div class="profile-img" role="img" aria-label="Profile placeholder">
+              <span>AR</span>
+            </div>
+            <div class="profile-meta">
+              <h3>Arun</h3>
+              <p class="muted">WordPress Developer</p>
+            </div>
+          </div>
+
+          <div class="quick-stats">
+            <div class="qstat">
+              <span class="qnum">50+</span>
+              <span class="qtxt">Websites Delivered</span>
+            </div>
+            <div class="qstat">
+              <span class="qnum">5+</span>
+              <span class="qtxt">Years Experience</span>
+            </div>
+            <div class="qstat">
+              <span class="qnum">A+</span>
+              <span class="qtxt">Speed & SEO Setup</span>
+            </div>
+          </div>
+
+          <div class="mini-cards">
+            <div class="mini">
+              <p class="mini-t">Latest Work</p>
+              <p class="mini-d muted">Business website + lead form + SEO</p>
+            </div>
+            <div class="mini">
+              <p class="mini-t">Stack</p>
+              <p class="mini-d muted">WordPress, Elementor, PHP, JS, SEO</p>
+            </div>
+          </div>
+
+          <div class="hero-social">
+            <a class="chip" href="#contact">Email</a>
+            <a class="chip" href="#contact">WhatsApp</a>
+            <a class="chip" href="#contact">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="container section" id="about">
+      <div class="section-head reveal">
+        <h2>About</h2>
+        <p class="muted">
+          I build WordPress sites that load fast, rank better, and convert visitors into leads.
+          My focus is clean UI, SEO-ready structure, and performance.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <h3>What I do</h3>
+          <ul class="ticks">
+            <li>Custom WordPress websites (Elementor / Gutenberg)</li>
+            <li>WooCommerce store setup + checkout optimization</li>
+            <li>Speed optimization (Core Web Vitals)</li>
+            <li>On-page SEO + schema + indexing fixes</li>
+            <li>Plugin customization + API integrations</li>
+          </ul>
+          <a class="btn btn-ghost" href="#" onclick="alert('Add your resume file and update this link!')">Download Resume</a>
+        </div>
+
+        <div class="highlights reveal">
+          <div class="h-card">
+            <h4>5+ Years</h4>
+            <p class="muted">Hands-on WordPress development & fixes</p>
+          </div>
+          <div class="h-card">
+            <h4>50+ Projects</h4>
+            <p class="muted">Business sites, stores, landing pages</p>
+          </div>
+          <div class="h-card">
+            <h4>SEO First</h4>
+            <p class="muted">Better structure, speed, and content flow</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="container section" id="skills">
+      <div class="section-head reveal">
+        <h2>Skills</h2>
+        <p class="muted">Modern WordPress workflow with performance and clean UX.</p>
+      </div>
+
+      <div class="skills-wrap reveal">
+        <div class="chips">
+          <span class="chip">WordPress</span>
+          <span class="chip">Elementor</span>
+          <span class="chip">WooCommerce</span>
+          <span class="chip">PHP</span>
+          <span class="chip">MySQL</span>
+          <span class="chip">HTML</span>
+          <span class="chip">CSS</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">SEO</span>
+          <span class="chip">Speed Optimization</span>
+          <span class="chip">Security</span>
+        </div>
+
+        <div class="bars">
+          <div class="bar" data-level="92">
+            <div class="bar-top">
+              <span>WordPress + Elementor</span>
+              <span class="muted">92%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill"></div></div>
+          </div>
+
+          <div class="bar" data-level="88">
+            <div class="bar-top">
+              <span>WooCommerce</span>
+              <span class="muted">88%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill"></div></div>
+          </div>
+
+          <div class="bar" data-level="85">
+            <div class="bar-top">
+              <span>Speed + Core Web Vitals</span>
+              <span class="muted">85%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill"></div></div>
+          </div>
+
+          <div class="bar" data-level="80">
+            <div class="bar-top">
+              <span>Custom Plugins (PHP + JS)</span>
+              <span class="muted">80%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill"></div></div>
+          </div>
+
+          <div class="bar" data-level="78">
+            <div class="bar-top">
+              <span>SEO On-page + Schema</span>
+              <span class="muted">78%</span>
+            </div>
+            <div class="bar-track"><div class="bar-fill"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="container section" id="projects">
+      <div class="section-head reveal">
+        <h2>Projects</h2>
+        <p class="muted">A few recent works (sample projects). Replace with your real projects.</p>
+      </div>
+
+      <div class="filters reveal" role="tablist" aria-label="Project filters">
+        <button class="fbtn active" data-filter="all">All</button>
+        <button class="fbtn" data-filter="wordpress">WordPress</button>
+        <button class="fbtn" data-filter="woocommerce">WooCommerce</button>
+        <button class="fbtn" data-filter="seo">SEO</button>
+        <button class="fbtn" data-filter="plugins">Plugins</button>
+      </div>
+
+      <div class="project-grid reveal" id="projectGrid">
+        <article class="p-card" data-tags="wordpress,seo">
+          <div class="p-thumb">
+            <span>Business Website</span>
+          </div>
+          <div class="p-body">
+            <h3>IT Company Website</h3>
+            <p class="muted">Modern UI, lead forms, speed + on-page SEO.</p>
+            <div class="tags">
+              <span class="tag">WordPress</span><span class="tag">SEO</span>
+            </div>
+            <div class="p-actions">
+              <a class="btn btn-sm" href="#" onclick="alert('Add your live link!')">Live Demo</a>
+              <a class="btn btn-sm btn-ghost" href="#" onclick="alert('Add case study page!')">Case Study</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="p-card" data-tags="woocommerce,seo">
+          <div class="p-thumb">
+            <span>Online Store</span>
+          </div>
+          <div class="p-body">
+            <h3>WooCommerce Store Setup</h3>
+            <p class="muted">Checkout optimization, payments, shipping rules.</p>
+            <div class="tags">
+              <span class="tag">WooCommerce</span><span class="tag">SEO</span>
+            </div>
+            <div class="p-actions">
+              <a class="btn btn-sm" href="#" onclick="alert('Add your live link!')">Live Demo</a>
+              <a class="btn btn-sm btn-ghost" href="#" onclick="alert('Add case study page!')">Case Study</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="p-card" data-tags="wordpress,plugins">
+          <div class="p-thumb">
+            <span>Custom Plugin</span>
+          </div>
+          <div class="p-body">
+            <h3>Booking / Form Plugin</h3>
+            <p class="muted">Admin dashboard + status updates + exports.</p>
+            <div class="tags">
+              <span class="tag">Plugins</span><span class="tag">WordPress</span>
+            </div>
+            <div class="p-actions">
+              <a class="btn btn-sm" href="#" onclick="alert('Add demo video or repo!')">Live Demo</a>
+              <a class="btn btn-sm btn-ghost" href="#" onclick="alert('Add case study page!')">Case Study</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="p-card" data-tags="seo,wordpress">
+          <div class="p-thumb">
+            <span>Landing Pages</span>
+          </div>
+          <div class="p-body">
+            <h3>SEO Landing Pages</h3>
+            <p class="muted">Keyword structure, internal links, schema setup.</p>
+            <div class="tags">
+              <span class="tag">SEO</span><span class="tag">WordPress</span>
+            </div>
+            <div class="p-actions">
+              <a class="btn btn-sm" href="#" onclick="alert('Add your live link!')">Live Demo</a>
+              <a class="btn btn-sm btn-ghost" href="#" onclick="alert('Add case study page!')">Case Study</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="p-card" data-tags="woocommerce,plugins">
+          <div class="p-thumb">
+            <span>Woo Addon</span>
+          </div>
+          <div class="p-body">
+            <h3>WooCommerce Custom Add-on</h3>
+            <p class="muted">Custom fields, dynamic pricing, email triggers.</p>
+            <div class="tags">
+              <span class="tag">WooCommerce</span><span class="tag">Plugins</span>
+            </div>
+            <div class="p-actions">
+              <a class="btn btn-sm" href="#" onclick="alert('Add demo link!')">Live Demo</a>
+              <a class="btn btn-sm btn-ghost" href="#" onclick="alert('Add case study page!')">Case Study</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="p-card" data-tags="wordpress">
+          <div class="p-thumb">
+            <span>Fix & Improve</span>
+          </div>
+          <div class="p-body">
+            <h3>Speed Fix + 404 Cleanup</h3>
+            <p class="muted">Redirects, broken links fix, better indexing control.</p>
+            <div class="tags">
+              <span class="tag">WordPress</span>
+            </div>
+            <div class="p-actions">
+              <a class="btn btn-sm" href="#" onclick="alert('Add report or screenshot!')">Live Demo</a>
+              <a class="btn btn-sm btn-ghost" href="#" onclick="alert('Add case study page!')">Case Study</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="container section" id="services">
+      <div class="section-head reveal">
+        <h2>Services</h2>
+        <p class="muted">Everything needed to launch and grow a WordPress website.</p>
+      </div>
+
+      <div class="service-grid reveal">
+        <div class="s-card">
+          <div class="s-ic">🧱</div>
+          <h3>WordPress Development</h3>
+          <p class="muted">Custom pages, themes, sections, and clean layout.</p>
+        </div>
+        <div class="s-card">
+          <div class="s-ic">🎨</div>
+          <h3>Elementor Design</h3>
+          <p class="muted">Modern UI, responsive design, reusable templates.</p>
+        </div>
+        <div class="s-card">
+          <div class="s-ic">🛒</div>
+          <h3>WooCommerce Setup</h3>
+          <p class="muted">Store setup, product pages, checkout optimization.</p>
+        </div>
+        <div class="s-card">
+          <div class="s-ic">⚡</div>
+          <h3>Speed Optimization</h3>
+          <p class="muted">Core Web Vitals, caching, images, code cleanup.</p>
+        </div>
+        <div class="s-card">
+          <div class="s-ic">🔎</div>
+          <h3>SEO On-page</h3>
+          <p class="muted">Meta, schema, internal linking, indexing improvements.</p>
+        </div>
+        <div class="s-card">
+          <div class="s-ic">🧩</div>
+          <h3>Plugin Customization</h3>
+          <p class="muted">Custom features, forms, dashboards, integrations.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="container section" id="testimonials">
+      <div class="section-head reveal">
+        <h2>Testimonials</h2>
+        <p class="muted">What clients say (sample).</p>
+      </div>
+
+      <div class="t-wrap reveal">
+        <div class="t-card" id="tCard">
+          <p class="t-quote" id="tQuote">“Arun delivered a fast WordPress website with clean design and strong SEO setup.”</p>
+          <div class="t-meta">
+            <div class="t-avatar">A</div>
+            <div>
+              <p class="t-name" id="tName">Akhil</p>
+              <p class="muted t-role" id="tRole">Business Owner</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="t-dots" id="tDots" aria-label="Testimonial navigation"></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="container section" id="contact">
+      <div class="section-head reveal">
+        <h2>Contact</h2>
+        <p class="muted">Tell me about your website requirement. I’ll reply quickly.</p>
+      </div>
+
+      <div class="contact-grid">
+        <form class="form-card reveal" id="contactForm" novalidate>
+          <div class="f-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required />
+            <small class="err" data-err-for="name"></small>
+          </div>
+
+          <div class="f-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            <small class="err" data-err-for="email"></small>
+          </div>
+
+          <div class="f-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Project details..." required></textarea>
+            <small class="err" data-err-for="message"></small>
+          </div>
+
+          <button class="btn btn-full" type="submit">Send Message</button>
+          <p class="muted small">This form is frontend-only. Connect it to email/API later.</p>
+        </form>
+
+        <div class="contact-side reveal">
+          <div class="contact-card">
+            <h3>Quick Connect</h3>
+            <div class="contact-actions">
+              <a class="btn btn-ghost btn-full" href="mailto:arun@example.com">Email</a>
+              <a class="btn btn-ghost btn-full" href="#" onclick="alert('Add WhatsApp link: https://wa.me/91XXXXXXXXXX')">WhatsApp</a>
+              <a class="btn btn-ghost btn-full" href="#" onclick="alert('Add your LinkedIn profile link')">LinkedIn</a>
+            </div>
+          </div>
+
+          <div class="faq-card">
+            <h3>FAQ</h3>
+            <div class="accordion" id="faq">
+              <button class="acc" type="button">How fast can you deliver a website?<span>+</span></button>
+              <div class="panel"><p class="muted">Usually 3–10 days depending on pages and content readiness.</p></div>
+
+              <button class="acc" type="button">Do you provide SEO setup?<span>+</span></button>
+              <div class="panel"><p class="muted">Yes — on-page SEO, schema, indexing, and speed improvements.</p></div>
+
+              <button class="acc" type="button">Can you fix bugs on an existing site?<span>+</span></button>
+              <div class="panel"><p class="muted">Yes — performance, 404/redirects, plugin conflicts, UI fixes.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo">Arun<span class="dot">.</span></div>
+        <p class="muted small">WordPress Developer • SEO • Speed Optimization</p>
+      </div>
+      <div class="foot-links">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="muted small">© <span id="year"></span> Arun. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
